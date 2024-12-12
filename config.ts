@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "http:/",
-  match: "http://**",
+  url: "http://www.chochong.net/*",
+  match: "http://www.chochong.net/**",
   maxPagesToCrawl: 99999999999,
-  outputFileName: ".json",
+  outputFileName: "chochong.json",
   maxTokens: 2000000,
   selector: "body",
 };
