@@ -6,5 +6,5 @@ export const defaultConfig: Config = {
   maxPagesToCrawl: 99999999999,
   outputFileName: "air-korea.json",
   maxTokens: 2000000,
-  selector: ""
+  selector: "",
 };
