@@ -4,7 +4,7 @@ export const defaultConfig: Config = {
   url: "http://chosonsinbo.com/",
   match: "http://chosonsinbo.com/**",
   maxPagesToCrawl: 99999999999,
-  outputFileName: ".json",
+  outputFileName: "chosonsinbo.json",
   maxTokens: 2000000,
   selector: "body",
 };
