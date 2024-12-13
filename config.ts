@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "http:/",
-  match: "http://**",
+  url: "http://www.knic.com.kp/",
+  match: "http://www.knic.com.kp/**",
   maxPagesToCrawl: 99999999999,
-  outputFileName: ".json",
+  outputFileName: "knic.json",
   maxTokens: 2000000,
   selector: "body",
 };
