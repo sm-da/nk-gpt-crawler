@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "http:/",
-  match: "http://**",
+  url: "http://www.korea-publ.com/",
+  match: "http://www.korea-publ.com/**",
   maxPagesToCrawl: 99999999999,
-  outputFileName: ".json",
+  outputFileName: "korea-publ.json",
   maxTokens: 2000000,
   selector: "body",
 };
