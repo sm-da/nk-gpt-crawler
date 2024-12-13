@@ -1,8 +1,8 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "http:/",
-  match: "http://**",
+  url: "http://aindf.dyndns.org/kuguk8/Title1.htm",
+  match: "http://aindf.dyndns.org/kuguk8/Title1.htm/**",
   maxPagesToCrawl: 99999999999,
   outputFileName: ".json",
   maxTokens: 2000000,
