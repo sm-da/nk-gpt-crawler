@@ -1,8 +1,8 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "http:/",
-  match: "http://**",
+  url: "https://oshkoshdefense.com/",
+  match: "https://oshkoshdefense.com/**",
   maxPagesToCrawl: 99999999999,
   outputFileName: ".json",
   maxTokens: 2000000,
