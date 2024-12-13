@@ -4,7 +4,7 @@ export const defaultConfig: Config = {
   url: "https://oshkoshdefense.com/",
   match: "https://oshkoshdefense.com/**",
   maxPagesToCrawl: 99999999999,
-  outputFileName: ".json",
+  outputFileName: "oshkoshdefense.json",
   maxTokens: 2000000,
   selector: "body",
 };
