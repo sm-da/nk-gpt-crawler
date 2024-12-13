@@ -4,7 +4,7 @@ export const defaultConfig: Config = {
   url: "http://www.northkoreatech.org/",
   match: "http://www.northkoreatech.org/**",
   maxPagesToCrawl: 99999999999,
-  outputFileName: ".json",
+  outputFileName: "northkoreatech.json",
   maxTokens: 2000000,
   selector: "body",
 };
